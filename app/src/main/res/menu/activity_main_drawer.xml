@@ -4,32 +4,34 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-
-            android:title="Import"/>
+            android:icon="@drawable/prayer"
+            android:title="Tasbih"/>
         <item
-            android:id="@+id/nav_gallery"
 
-            android:title="Gallery"/>
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/kaaba"
+            android:title="Kiblah"/>
         <item
             android:id="@+id/nav_slideshow"
-
-            android:title="Slideshow"/>
+            android:icon="@drawable/quran"
+            android:title="Hadith"/>
         <item
             android:id="@+id/nav_manage"
-
-            android:title="Tools"/>
+            android:icon="@drawable/quran"
+            android:title="Quran"/>
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-
-                android:title="Share"/>
-            <item
-                android:id="@+id/nav_send"
-                android:title="Send"/>
-        </menu>
-    </item>
+    <!--<item android:title="Communicate">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/nav_share"-->
+    <!--android:icon="@drawable/ic_menu_share"-->
+    <!--android:title="Share" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_send"-->
+    <!--android:icon="@drawable/ic_menu_send"-->
+    <!--android:title="Send" />-->
+    <!--</menu>-->
+    <!--</item>-->
 
 </menu>

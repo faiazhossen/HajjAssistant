@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.musta.faiaz.hajjassistant.MainActivity">
+    tools:context="com.musta.faiaz.hajjassistant.activity.MainActivity">
 
     <FrameLayout
         android:id="@+id/content"
