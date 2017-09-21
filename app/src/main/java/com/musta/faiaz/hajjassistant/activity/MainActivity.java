@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
+    private int changeDummy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
