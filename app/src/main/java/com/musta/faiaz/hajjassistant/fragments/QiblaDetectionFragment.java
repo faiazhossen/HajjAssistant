@@ -20,9 +20,9 @@ import android.widget.TextView;
 import com.musta.faiaz.hajjassistant.R;
 
 
-public class QiblaDirection extends Fragment implements SensorEventListener {
+public class QiblaDetectionFragment extends Fragment implements SensorEventListener {
 
-    public final static String TAG = QiblaDirection.class.getSimpleName();
+    public final static String TAG = QiblaDetectionFragment.class.getSimpleName();
     static TextView angleKeeper;
     private SharedPreferences spMaster;
     private SharedPreferences.Editor ename, elat, elon;
@@ -32,12 +32,12 @@ public class QiblaDirection extends Fragment implements SensorEventListener {
     private float myDegree, lat, lon;
     private Button save;
 
-    public QiblaDirection() {
+    public QiblaDetectionFragment() {
         // TODO Auto-generated constructor stub
     }
 
-    public static QiblaDirection newInstance() {
-        return new QiblaDirection();
+    public static QiblaDetectionFragment newInstance() {
+        return new QiblaDetectionFragment();
     }
 
     @Override
@@ -48,7 +48,7 @@ public class QiblaDirection extends Fragment implements SensorEventListener {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_qibla, container, false);
+        return inflater.inflate(R.layout.fragment_qibla_detection, container, false);
     }
 
     @Override

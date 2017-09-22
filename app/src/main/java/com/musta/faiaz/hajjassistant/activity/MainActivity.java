@@ -16,7 +16,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.musta.faiaz.hajjassistant.R;
-import com.musta.faiaz.hajjassistant.fragments.QiblaDirection;
+import com.musta.faiaz.hajjassistant.fragments.QiblaDetectionFragment;
 import com.musta.faiaz.hajjassistant.fragments.SampleFragmentPagerAdapter;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -103,8 +103,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.content_fragment,
-                            QiblaDirection.newInstance(),
-                            QiblaDirection.TAG).commit();
+                            QiblaDetectionFragment.newInstance(),
+                            QiblaDetectionFragment.TAG).commit();
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
