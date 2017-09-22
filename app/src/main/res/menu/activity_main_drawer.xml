@@ -16,6 +16,10 @@
             android:icon="@drawable/quran"
             android:title="Hadith"/>
         <item
+            android:id="@+id/nav_prayerTime"
+            android:icon="@drawable/quran"
+            android:title="Prayer Time" />
+        <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/quran"
             android:title="Quran"/>
