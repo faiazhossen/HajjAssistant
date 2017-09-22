@@ -7,10 +7,9 @@
             android:icon="@drawable/prayer"
             android:title="Tasbih"/>
         <item
-
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_qibla"
             android:icon="@drawable/kaaba"
-            android:title="Kiblah"/>
+            android:title="Qibla" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/quran"

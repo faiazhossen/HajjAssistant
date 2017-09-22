@@ -1,6 +1,5 @@
 package com.musta.faiaz.hajjassistant.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -23,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
-
+    private int changeDummy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,10 +93,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-
-        if (id == R.id.nav_prayerTime) {
-            startActivity(new Intent(MainActivity.this, PrayerTimeActivity.class));
-        }
 
 //        if (id == R.id.nav_camera) {
 //            // Handle the camera action
