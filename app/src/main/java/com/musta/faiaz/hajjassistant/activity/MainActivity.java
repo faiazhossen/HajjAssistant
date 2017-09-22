@@ -1,5 +1,6 @@
 package com.musta.faiaz.hajjassistant.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -16,6 +17,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.musta.faiaz.hajjassistant.R;
+import com.musta.faiaz.hajjassistant.fragments.QiblaDetectionFragment;
 import com.musta.faiaz.hajjassistant.fragments.SampleFragmentPagerAdapter;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -93,6 +95,22 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+
+        if (id == R.id.nav_camera) {
+            // Handle the camera action
+        } else if (id == R.id.nav_qibla) {
+            tabLayout.setVisibility(View.GONE);
+            viewPager.setVisibility(View.GONE);
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.content_fragment,
+                            QiblaDetectionFragment.newInstance(),
+                            QiblaDetectionFragment.TAG).commit();
+        } else if (id == R.id.nav_prayerTime) {
+            startActivity(new Intent(MainActivity.this, PrayerTimeActivity.class));
+        } else if (id == R.id.nav_manage) {
+
+        }
 
 //        if (id == R.id.nav_camera) {
 //            // Handle the camera action
