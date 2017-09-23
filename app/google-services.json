@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "138108712989",
+    "firebase_url": "https://hajjassistant.firebaseio.com",
+    "project_id": "hajjassistant",
+    "storage_bucket": "hajjassistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138108712989:android:60849611a4ddeecd",
+        "android_client_info": {
+          "package_name": "com.musta.faiaz.hajjassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138108712989-k1sho2mfe59m34k5ktd9h4m15l50for5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.musta.faiaz.hajjassistant",
+            "certificate_hash": "63d7b2b5843fce084c040a6fdeac10587ce3cacc"
+          }
+        },
+        {
+          "client_id": "138108712989-9f21a76fjble6uhdpjf2uskmp7ih3okc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_WzIHRC-oPaJ9GTr_qmy1z4IgRoRcCRo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138108712989-9f21a76fjble6uhdpjf2uskmp7ih3okc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
